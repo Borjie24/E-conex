@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping | E-CONEX </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" type="image/png" href="E-conex/images/logo.png">
+</head>
+<body>
+
+
+    <div class="header page">
+    <div class="container">
+        <div class = "navbar">
+        <div class = "logo">
+             <a href="Home.html"><img src="E-conex/images/logo2.png" width="200px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Product.html">Products</a></li>
+              
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+             <a href="Cart.html"><img src="E-conex/images/cart.png" width="55px"></a>
+            <img src="E-conex/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </div>
+
+
+<!------ Shipping details ---------->
+    <div class="check-out">
+    <div class="row">
+          <div class="col-75">
+            <div class="container checkout-page">
+
+
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Shipping Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Johnny Sims" required>
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="johnnysimms@example.com" required>
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="House no. Street Baranggay" required>
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Quezon City" required>
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">Province</label>
+                        <input type="text" id="state" name="state" placeholder="Metro Manila" required>
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip code</label>
+                        <input type="text" id="zip" name="zip" placeholder="0000" required>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="fname">Mode</label>
+                    <div class="check-box-container">
+                     <label><input id="cash" type="checkbox"> Cash on delivery</label>
+                     <label><input id="card" type="checkbox"> Gcash</label>
+                    </div>
+                    <label for="cname">Account name</label>
+                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                    <label for="ccnum"> Gcash number</label>
+                    <input type="text" id="ccnum" name="mobilenumber" placeholder="09*********">
+
+
+
+                  </div>
+
+                </div>
+                  <a href="Success.html"><input type="submit" value="Continue to checkout" class="btn"></a>
+
+            </div>
+          </div>
+
+          <div class="col-25">
+            <div class="container">
+              <h4>Cart
+                <span class="price" style="color:black">
+                  <a href="Cart.html"><i class="fa fa-shopping-cart"></i></a>
+                  <b>3</b>
+                </span>
+              </h4>
+              <p><a href="product-11-details.html">Solder PCB SMD...</a> <span class="price">&#8369 58.00</span></p>
+              <p><a href="product-1-details.html">Arduino...</a> <span class="price">&#8369 1300.00</span></p>
+              <p><a href="#">Shipping fee</a> <span class="price">&#8369 50.00</span></p>
+              <hr>
+              <p>Total <span class="price" style="color:black"><b>&#8369 3768.00</b></span></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+<!------------ footer --------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOs mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="E-conex/images/playlogo1.png">
+                        <img src="E-conex/images/playlogo2.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="E-conex/images/logo3.png">
+                    <p>Our Purpose Is to Sustainably Make the Pleasure and Benefits of Electronics
+                    Accessible to the Many.</p>
+                </div>
+                 <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                     <ul>
+                         <li>Coupons</li>
+                         <li>Blog Post</li>
+                         <li>Return Policy</li>
+                         <li>Join Affiliate</li>
+                     </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                     <ul>
+                         <li>Facebook</li>
+                         <li>Twitter</li>
+                         <li>Instagram</li>
+                         <li>Youtube</li>
+                     </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&#169 2021 E-CONEX. All rights reserved</p>
+        </div>
+    </div>
+<!---------js for toggle menu--------->
+     <script>
+         var MenuItems = document.getElementById("MenuItems");
+
+         MenuItems.style.maxHeight = "0px";
+
+         function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+         }
+     </script>
+
+
+<!---------js for --------->
+
+
+
+</body>
+</html>
